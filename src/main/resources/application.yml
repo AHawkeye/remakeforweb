@@ -1,0 +1,21 @@
+spring:
+  redis:
+    host: 127.0.0.1
+    port: 6379
+    timeout: 3000
+    database: 0
+    lettuce:
+      pool:
+        min-idle: 1
+        max-idle: 6
+        max-active: 10
+        max-wait: 1000
+      shutdown-timeout: 3000
+sa-token:
+  token-name: hust
+  timeout: 86400
+  activity-timeout: -1
+  is-concurrent: true
+  is-share: false
+  token-style: uuid
+  is-log: false
