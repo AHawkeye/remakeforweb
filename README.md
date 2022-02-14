@@ -10,7 +10,8 @@
 - springboot
 - sa-token
 # 项目地址
-
+- 后端：https://github.com/AHawkeye/remakeforweb
+- 前端：https://github.com/AKACiven/Just_For_Fun/tree/main/remake
 # 项目演示
 
 ![image-20220214102214314](README.assets/image-20220214102214314.png)
@@ -21,8 +22,8 @@
 
 # 使用方法
 
-分别下载前后端项目文件
+- 分别下载前后端项目文件
 
-在前端的终端输入`npm install`安装依赖，然后输入`npm run dev`运行
+- 在前端的终端输入`npm install`安装依赖，然后输入`npm run dev`运行
 
-在后端打开redis服务，直接运行springboot程序。
+- 在后端打开redis服务，直接运行springboot程序。
